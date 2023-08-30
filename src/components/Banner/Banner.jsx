@@ -18,7 +18,7 @@ const Banner = () => {
             at just <span style={{ color: "#0048ff" }}>₹ 99</span> per year!
           </h1>
           {info.map((content) => (
-            <ListElement content={content} />
+            <ListElement key={content.id} content={content} />
           ))}
         </div>
         <div className={classes.bannerRight}>
