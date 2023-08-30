@@ -37,12 +37,18 @@ input[type='radio'] {
     background:#E7E7E7 ;
 }
 
-input[type="radio"]:checked+label{
-    outline: none;
-    border: none;
-}
 
 .checkedStyles{
     border: 2px solid #47BA68;
     background-color: #D7EDDD;
 }
+.inputBox input[type="radio"]:checked {
+    outline: none;
+  }
+  
+  
+  
+  
+  
+  
+  

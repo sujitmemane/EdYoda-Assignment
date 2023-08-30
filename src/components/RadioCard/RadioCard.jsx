@@ -19,6 +19,7 @@ const RadioCard = ({ info, selectedOption, onChange }) => {
         )}
         <input
           type="radio"
+          className={classes.inputBox}
           name="options"
           value={info.value}
           checked={info.value == selectedOption}
@@ -28,7 +29,7 @@ const RadioCard = ({ info, selectedOption, onChange }) => {
         <h3 className={classes.title}>{info.title}</h3>
         <div>
           <p>Total ₹{info.total}</p>
-          <p>₹{info.monthly}/ mo</p>
+          <p>₹{info.monthly} /mo</p>
         </div>
       </div>
     </label>

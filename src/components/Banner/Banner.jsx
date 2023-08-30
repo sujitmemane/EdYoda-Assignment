@@ -10,7 +10,12 @@ const Banner = () => {
       <div className={classes.container}>
         <div className={classes.bannerLeft}>
           <h1 className={classes.headingText}>
-            Access curated courses worth ₹ 18,500 at just ₹ 99 per year!
+            Access curated courses worth ₹{" "}
+            <strike style={{ color: "red" }}>
+              {" "}
+              <span style={{ color: "white" }}>18,500</span>{" "}
+            </strike>{" "}
+            at just <span style={{ color: "#0048ff" }}>₹ 99</span> per year!
           </h1>
           {info.map((content) => (
             <ListElement content={content} />

@@ -32,7 +32,7 @@ const PaymentContainer = () => {
           />
         ))}
       </div>
-      <hr />
+      <hr style={{ marginTop: "20px" }} />
       <div className={classes.subs}>
         <p>Subscription Fee</p>
         <p> ₹ {selectedOption}</p>
@@ -51,7 +51,10 @@ const PaymentContainer = () => {
         <p> ₹ {selectedOption - 500}</p>
       </div>
       <div className={classes.actionContainer}>
-        <button className={`${classes.cancelBtn} ${classes.button} `}>
+        <button
+          className={`${classes.cancelBtn} ${classes.button} `}
+          onClick={() => setSelectedOption(6999)}
+        >
           CANCEL
         </button>
         <button className={`${classes.paymentBtn} ${classes.button} `}>
