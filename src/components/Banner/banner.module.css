@@ -23,11 +23,22 @@
 }
 
 .bannerLeft{
-    flex-basis: 50%;
+    flex:2;
 
 }
 
 .bannerRight{
-     flex-basis: 40%;
+    flex:1;
 
+}
+
+
+@media (max-width: 768px){
+   .mainContainer{
+    padding: 20px;
+   }
+
+    .container{
+        flex-direction: column;
+    }
 }

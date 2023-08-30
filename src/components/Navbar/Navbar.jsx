@@ -20,8 +20,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className={classes.navbarRight}>
-        <GoSearch size={25} />
-        <p>Log In</p>
+        <GoSearch className={classes.searchLogo} size={25} />
+        <p className={classes.logIn}>Log In</p>
         <p className={classes.primaryButton}>Join Now</p>
       </div>
     </div>
