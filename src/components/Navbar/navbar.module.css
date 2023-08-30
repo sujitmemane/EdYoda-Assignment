@@ -1,0 +1,56 @@
+
+.navbarContainer{
+   
+    padding:10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+
+}
+
+.menuList{
+    display: flex;
+     gap:30px;
+     margin:0 20px;
+}
+
+.menuItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+
+}
+.primaryButton{
+    padding:4px 24px ;
+    text-transform: uppercase;
+    border-radius: 100px;
+    background: rgb(0,72,255);
+    background: linear-gradient(90deg, rgba(0,72,255,1) 0%, rgba(0,150,255,1) 35%);
+    color:white
+
+}
+
+.logo{   
+    background-image: linear-gradient(269deg,#0048ff,#0096ff),linear-gradient(#000,#000);
+    color: #0084ff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
