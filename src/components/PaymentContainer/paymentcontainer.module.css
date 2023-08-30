@@ -39,3 +39,76 @@
 .cardContainer{
     margin-top:30px;
 }
+
+.subs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0;
+}
+
+.redCard{
+    display: flex;
+}
+.redCardMain{
+   
+   background-color: #fae0e4;
+    color:#DE4313;
+    border:2px solid #DE4313;
+    padding:12px 12px;
+   
+}
+
+.totalContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.actionContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    padding: 10px 0;
+}
+
+.cancelBtn{
+  border: 2px solid #F77171;
+  color:#F77171;
+  background-color: transparent;
+  font-weight: 600;
+
+}
+
+.paymentBtn{
+background-color: #47BA68;
+border: 2px solid #47BA68;
+
+outline: none;
+color: white;
+font-weight: 600;
+}
+
+
+.button {
+    flex: 1;
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .razorpayImg{
+    width: 120px;
+  }
+
+
+  .redCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

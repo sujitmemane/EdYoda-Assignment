@@ -2,11 +2,12 @@
     color:white;
     display:flex;
     gap:30px;
-    margin:10px 0; 
+    margin:15px 0; 
     font-size: 1.5rem;
 }
 
 .logoImage{
    
+    width:70px;
 
 }
