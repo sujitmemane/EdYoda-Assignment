@@ -50,5 +50,14 @@ input[type='radio'] {
   
   
   
-  
+  @media (max-width: 768px){
+    input[type='radio'] { 
+        transform: scale(1);
+    
+    }
+
+    .title{
+        font-size: 14px;
+    }
+  }
   

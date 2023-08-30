@@ -112,3 +112,9 @@ font-weight: 600;
     align-items: center;
     justify-content: space-between;
   }
+
+  @media (max-width: 768px){
+    .container{
+        padding: 20px 5px;
+    }
+  }

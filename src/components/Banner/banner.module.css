@@ -9,21 +9,23 @@
   padding:100px;
 }
 .headingText{
-    font-size: 3rem;
+    font-size: 3.6rem;
     font-weight: 500;
     color:white;
    margin-bottom:30px;
+
 }
 
 .container{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap:120px;
    
 }
 
 .bannerLeft{
-    flex:2;
+    flex:1.5;
 
 }
 
@@ -35,10 +37,25 @@
 
 @media (max-width: 768px){
    .mainContainer{
-    padding: 20px;
+    padding:80px 10px;
    }
 
     .container{
         flex-direction: column;
+    }
+    .headingText{
+        text-align: center;
+        font-size: 2rem
+    }
+
+    .bannerLeft{
+        flex:1;
+    
+    }
+    
+    .bannerRight{
+        flex:1;
+        width: 100%;
+    
     }
 }

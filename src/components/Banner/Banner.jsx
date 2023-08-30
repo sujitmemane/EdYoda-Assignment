@@ -10,7 +10,7 @@ const Banner = () => {
       <div className={classes.container}>
         <div className={classes.bannerLeft}>
           <h1 className={classes.headingText}>
-            Access curated courses worth ₹{" "}
+            Access curated courses worth ₹
             <strike style={{ color: "red" }}>
               {" "}
               <span style={{ color: "white" }}>18,500</span>{" "}
