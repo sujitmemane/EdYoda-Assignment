@@ -35,11 +35,10 @@
 
 }
 .primaryButton{
-    padding:4px 24px ;
+    padding:6px 24px ;
     text-transform: uppercase;
     border-radius: 100px;
-    background: rgb(0,72,255);
-    background: linear-gradient(90deg, rgba(0,72,255,1) 0%, rgba(0,150,255,1) 35%);
+    background: #0096ff;
     color:white
 
 }

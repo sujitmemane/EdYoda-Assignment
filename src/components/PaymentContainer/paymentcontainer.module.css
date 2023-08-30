@@ -1,0 +1,41 @@
+.container{
+    padding:20px 30px ;
+    background: white;
+    border-radius: 10px;
+}
+
+.openingContainer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.openingItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roundedCircle {
+    display: inline-block;
+    width: 30px; 
+    height: 30px; 
+    background-color: #007bff; 
+    color: white;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 30px; 
+    font-weight: bold;
+  }
+  
+.headingText {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.cardContainer{
+    margin-top:30px;
+}

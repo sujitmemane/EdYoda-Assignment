@@ -1,11 +1,11 @@
 import "./App.css";
-import { Navbar } from "./components/index";
+import { Banner, Navbar } from "./components/index";
 
 function App() {
   return (
     <>
       <Navbar />
-      <h1>This is Sujit Memane</h1>
+      <Banner />
     </>
   );
 }

@@ -1,0 +1,26 @@
+.mainContainer{
+    background-image: url('../../assets/background.png');
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 100vh; 
+  padding:100px;
+}
+.headingText{
+    font-size: 3rem;
+    font-weight: 500;
+    color:white;
+   margin-bottom:30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:100px;
+}
+
+.bannerLeft,.bannerRight{
+    flex:1;
+}
